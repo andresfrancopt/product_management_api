@@ -1,0 +1,16 @@
+{
+  "name": "product-management-api",
+  "version": "1.0.0",
+  "description": "A RESTful API for managing products.",
+  "main": "src/app.js",
+  "scripts": {
+    "start": "node src/app.js"
+  },
+  "dependencies": {
+    "body-parser": "^1.20.3",
+    "express": "^4.21.2"
+  },
+  "author": "",
+  "license": "ISC",
+  "keywords": []
+}
