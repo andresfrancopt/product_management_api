@@ -1,28 +1,58 @@
-# Product Management API Documentation
+<h1 align="center">
+  <br />
+  <img
+    src="./_product-management-api/assets/icon.png"
+    alt="Product Management API"
+    width="150"
+  />
+  <br />
+  <b>Product Management API</b>
+  <br />
+  <sub
+    ><sup><b>(with Node.js and tested with Insomnia)</b></sup></sub
+  >
+  <br />
+  <a
+    href="https://github.com/andresfrancopt/product_management_api/actions/workflows/build.yml"
+  >
+    <img
+      src="https://github.com/andresfrancopt/product_management_api/actions/workflows/build.yml/badge.svg"
+      alt=""
+    />
+  </a>
+  <a href="https://github.com/andresfrancopt/product_management_api/releases/latest">
+    <img
+      src="https://img.shields.io/github/v/release/andresfrancopt/product_management_api"
+      alt="Latest Release"
+    />
+  </a>
 
-## General Description
+
+### Product Management API Documentation
+
+#### General Description
 The Product Management API is a RESTful service designed to manage products within an inventory system. It provides endpoints to create, read, update, and delete product information. This API is built to be scalable, secure, and easy to integrate with other systems.
 
-## Objectives
+##### Objectives
 - Provide a reliable and efficient way to manage product data.
 - Ensure data integrity and security.
 - Facilitate easy integration with other services and applications.
 
-## Functionalities
+#### Functionalities
 - Create new products.
 - Retrieve product details.
 - Update existing product information.
 - Delete products from the inventory.
 
-## Technologies Used
+#### Technologies Used
 - **Node.js**: JavaScript runtime for building the API
 - **Express.js**: Web framework for Node.js (version 4.21.2)
 - **Body-parser**: Middleware for parsing request bodies (version 1.20.3)
 - **Insomnia**: API client for testing endpoints
 
-## Endpoints
+### Endpoints
 
-### Create a Product
+#### Create a Product
 - **URL**: `/products`
 - **Method**: `POST`
 - **Request Body**:
@@ -46,7 +76,7 @@ The Product Management API is a RESTful service designed to manage products with
   }
   ```
 
-### Retrieve All Products
+#### Retrieve All Products
 - **URL**: `/products`
 - **Method**: `GET`
 - **Response**:
@@ -61,7 +91,7 @@ The Product Management API is a RESTful service designed to manage products with
   ]
   ```
 
-### Update a Product
+#### Update a Product
 - **URL**: `/products/:id`
 - **Method**: `PUT`
 - **Request Body**:
@@ -83,7 +113,7 @@ The Product Management API is a RESTful service designed to manage products with
   }
   ```
 
-### Delete a Product
+#### Delete a Product
 - **URL**: `/products/:id`
 - **Method**: `DELETE`
 - **Response**:
@@ -94,7 +124,7 @@ The Product Management API is a RESTful service designed to manage products with
   }
   ```
 
-## Installation Instructions
+#### Installation Instructions
 1. Clone the repository:
    ```bash
    git clone https://github.com/andresfrancopt/product-management-api.git
@@ -112,7 +142,7 @@ The Product Management API is a RESTful service designed to manage products with
    npm start
    ```
 
-## How to Improve This Project
+### How to Improve This Project
 - Implement MongoDB and Mongoose for persistent data storage (currently using in-memory storage)
 - Add Jest for unit and integration testing
 - Implement authentication and authorization
@@ -132,31 +162,31 @@ The Product Management API is a RESTful service designed to manage products with
 
 ---
 
-# Documentação da API de Gestão de Produtos
+### Documentação da API de Gestão de Produtos
 
-## Descrição Geral
+#### Descrição Geral
 A API de Gestão de Produtos é um serviço RESTful projetado para gerenciar produtos dentro de um sistema de inventário. Ela fornece endpoints para criar, ler, atualizar e excluir informações de produtos. Esta API foi construída para ser escalável, segura e fácil de integrar com outros sistemas.
 
-## Objetivos
+#### Objetivos
 - Fornecer uma maneira confiável e eficiente de gerenciar dados de produtos.
 - Garantir a integridade e segurança dos dados.
 - Facilitar a integração fácil com outros serviços e aplicações.
 
-## Funcionalidades
+#### Funcionalidades
 - Criar novos produtos.
 - Recuperar detalhes de produtos.
 - Atualizar informações de produtos existentes.
 - Excluir produtos do inventário.
 
-## Tecnologias Utilizadas
+#### Tecnologias Utilizadas
 - **Node.js**: Runtime JavaScript para construir a API
 - **Express.js**: Framework web para Node.js (versão 4.21.2)
 - **Body-parser**: Middleware para análise de corpos de requisição (versão 1.20.3)
 - **Insomnia**: Cliente de API para testar endpoints
 
-## Endpoints
+### Endpoints
 
-### Criar um Produto
+#### Criar um Produto
 - **URL**: `/products`
 - **Método**: `POST`
 - **Corpo da Requisição**:
@@ -180,7 +210,7 @@ A API de Gestão de Produtos é um serviço RESTful projetado para gerenciar pro
   }
   ```
 
-### Recuperar Todos os Produtos
+#### Recuperar Todos os Produtos
 - **URL**: `/products`
 - **Método**: `GET`
 - **Resposta**:
@@ -195,7 +225,7 @@ A API de Gestão de Produtos é um serviço RESTful projetado para gerenciar pro
   ]
   ```
 
-### Atualizar um Produto
+#### Atualizar um Produto
 - **URL**: `/products/:id`
 - **Método**: `PUT`
 - **Corpo da Requisição**:
@@ -217,7 +247,7 @@ A API de Gestão de Produtos é um serviço RESTful projetado para gerenciar pro
   }
   ```
 
-### Excluir um Produto
+#### Excluir um Produto
 - **URL**: `/products/:id`
 - **Método**: `DELETE`
 - **Resposta**:
@@ -228,7 +258,7 @@ A API de Gestão de Produtos é um serviço RESTful projetado para gerenciar pro
   }
   ```
 
-## Instruções de Instalação
+### Instruções de Instalação
 1. Clone o repositório:
    ```bash
    git clone https://github.com/andresfrancopt/product-management-api.git
@@ -246,7 +276,7 @@ A API de Gestão de Produtos é um serviço RESTful projetado para gerenciar pro
    npm start
    ```
 
-## Como Melhorar Este Projeto
+### Como Melhorar Este Projeto
 - Implementar MongoDB e Mongoose para persistência de dados (atualmente usando armazenamento em memória)
 - Adicionar Jest para testes unitários e de integração
 - Implementar autenticação e autorização
