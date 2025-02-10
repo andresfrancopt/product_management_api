@@ -20,7 +20,7 @@
       alt=""
     />
   </a>
-  <a href="https://github.com/andresfrancopt/product_management_api/releases/Pre-release">
+  <a href="https://github.com/andresfrancopt/product_management_api/releases/v0.1.0-alpha">
     <img
       src="https://img.shields.io/github/v/release/andresfrancopt/product_management_api"
       alt="Pre-Release"
