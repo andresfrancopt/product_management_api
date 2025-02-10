@@ -1,7 +1,7 @@
 <h1 align="center">
   <br />
   <img
-    src="./_product-management-api/assets/icon.png"
+    src="./assets/icon.png"
     alt="Product Management API"
     width="150"
   />
