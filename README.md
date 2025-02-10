@@ -27,6 +27,10 @@
     />
   </a>
 
+<p align="center">
+  <br />
+  <img src="./assets/preview.png" />
+</p>
 
 ### Product Management API Documentation
 
